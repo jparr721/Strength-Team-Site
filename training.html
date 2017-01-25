@@ -13,50 +13,78 @@
 </head>
 <body>
 
-
-<div class="container">
-
-
-    <div class="jumbotron text-center" style="background-color: #66afe9">
-        <h1>Our Training</h1>
-        <h3>The heart of what we do.</h3>
+<!--Nav -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">GVSC</a>
+        </div>
+        <div class="collapse navbar-collapse" id="NavBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="#equipment">Equipment</a></li>
+                <li><a href="#coaches">Coaches</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
+</nav>
 
+<!-- Main Logo-- Training -->
+<div class="container-fluid GV-main-blue text-center">
+    <h1 class="margin">Training</h1>
+    <img src="Images/TeamImages/Slider-Image-1.jpg" class="img-responsive img-circle margin" style="display:inline" alt="CompPhoto" width="450" height="450">
+    <h2>Click an image to get started!</h2>
+</div>
 
-    <ul>
-        <li><a class="active" href="index.html"> Home</a></li>
-        <li><a href="#training.html">Training</a></li>
-        <li><a href="#equipment">Equipment</a></li>
-        <li><a href="#coaches">Our Coaches</a></li>
-        <li><a href="#contact">Contact Us!</a></li>
-    </ul>
-
-    <section id="about" class="grey-bg">
-        <div class="container pad-30">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>Powerlifting Programs:</h2>
-                    <h4><a class="active" href="http://www.canditotraininghq.com/free-programs/" target="_blank">Jonnie Candito's Program</a></h4>
-                    <p>Jonnie Candito offers a robust (and free) program to help you reach all of your powerlifting goals!</p>
-                </div>
-                <div class="col-sm-4">
-                    <h2>Crossfit Programs:</h2>
-                    <h4><a class="active" href="https://www.builtbybergeron.com/comptrain-programming" target="_blank">Competitors Training</a></h4>
-                    <p>Ben Bergeron is the master of Crossfit. Featuring tons of resources for getting better on their website, their programming is unmatched.</p>
-                </div>
-                <div class ="col-sm-4">
-                    <h2>Olympic Weightlifting Programs:</h2>
-                    <h4><a class="active" href="http://crossfitweightlifting.com/category/wod/weightlifter/" target="_blank">Crossfit Weightlifting</a></h4>
-                    <p>Crossfit Weightlifting offers a good baseline program for people looking to get into the sport.</p>
-                </div>
+<!-- Training Options Section -->
+<div id="programs" class="container-fluid text-center gray-bg">
+    <h2>Workout Disciplines</h2><br>
+    <h4>We specialize in 3 types of lifting:</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="https://www.builtbybergeron.com/comptrain-programming" target="_blank">
+                <img src="Images/TeamImages/crossfit_comp1.JPG" alt="Crossfit" width="600" height="300">
+                </a>
+                <p><strong>Crossfit</strong></p>
+                <p>Ben Bergeron offers one of the most robust crossfit programming websites around
+                his workouts are designed to take your skills to the net level and make you an expert
+                    crossfit competitor.
+                </p>
             </div>
         </div>
-    </section>
-
-
-    <div class="panel panel-default">
-        <div class="panel-header text-center" style="background-color: #e3e3e3">
-            &copy;Copyright Jarred Parr Design LTD.
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="http://crossfitweightlifting.com/category/wod/weightlifter/" target="_blank">
+                    <img src="Images/TeamImages/oly_pic1.JPG" alt="Olympic Weightlifting" width="600" height="300">
+                </a>
+                <p><strong>Olympic Weightlifting</strong></p>
+                <p>Crossfit weightlifting is our main source for all things Oly. Posting daily workouts
+                and tips to make your lifts stronger and more powerful, their system has stood the test
+                of making atheletes go from good, to great.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="http://www.canditotraininghq.com/free-programs/" target="_blank">
+                    <img src="Images/TeamImages/powerlifting1.JPG" alt="Powerlifting" width="600" height="300">
+                </a>
+                <p><strong>Powerlifting</strong></p>
+                <p>Jonnie Candito is world renowned for his free, efficient, and easy to learn powerlifting
+                programs. He offers one of the best free programs around, and they are all quality assured
+                by the man himself, and are what actually led him to his first Silver Medal at the
+                world championships in Finland last year.
+                </p>
+            </div>
         </div>
     </div>
 </div>
