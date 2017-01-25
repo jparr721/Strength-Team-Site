@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47bc407a-e54a-4cdd-a706-4cd0ed331ab0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Slider-Image-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Slider-Image-2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stylesheet.css" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training.html" afterPath="$PROJECT_DIR$/training.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +35,11 @@
       <file leaf-file-name="training.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="1008">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4262#4268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485279497444</updated>
       <workItem from="1485279498723" duration="745000" />
-      <workItem from="1485294823079" duration="2498000" />
+      <workItem from="1485294823079" duration="2646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3243000" />
+    <option name="totallyTimeSpent" value="3391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1020" height="1174" extended-state="0" />
@@ -310,6 +306,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4262#4268#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,10 +332,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/training.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="1008">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4262#4268#0" expanded="true" />
           </folding>
         </state>
       </provider>
