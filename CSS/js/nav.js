@@ -1,3 +1,0 @@
-function buttonTest() {
-  document.getElementById()
-}
