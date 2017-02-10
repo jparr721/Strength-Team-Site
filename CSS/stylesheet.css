@@ -5,9 +5,23 @@
 }
 
 .body {
+    width: 1200px;
+    margin:0 auto;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #ffffff;
+}
+
+.body-whitebg {
+    width: 1200px;
+    margin:0 auto;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #262626;
+}
+
+.index-bg {
+    background: url("/Images/TeamImages/CompPhoto1.JPG");
 }
 
 p {
