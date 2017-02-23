@@ -8,6 +8,7 @@
       <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
 
       <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+
       <link rel="stylesheet" href="CSS/utility.css" />
       <link rel="stylesheet" href="CSS/stylesheet.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -39,16 +40,26 @@
     </div>
   </nav>
 
-  <!-- Main Logo -->
-  <div class="container-fluid text-center GV-main-blue">
+  <!-- Main Logo
+  <div id="main" class="container text-center GV-main-blue">
       <h1 class="margin">Grand Valley State University Strength Club</h1>
       <img src="Images/TeamImages/CompPhoto1.JPG" class="img-responsive img-square margin" style="display:inline; width:800px; height:500px" alt="CompPhoto">
       <h2>Est. 2013</h2>
       <h4>We lift weights.</h4>
   </div>
-
+-->
+  <div id="carousel" class="container carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="Images/TeamImages/CompPhoto1.JPG" alt="" class="img-responsive">
+            <div class="carousel-caption">
+                Grand Valley State University Strength Club
+            </div>
+        </div>
+    </div>
+  </div>
   <!-- BIO SECTION -->
-  <div class="container-fluid black-grey-bg text-center">
+  <div class="container black-grey-bg text-center">
       <h2 class="margin">Who Are We?</h2>
       <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
           quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
@@ -64,9 +75,9 @@
   </div>
 
   <!-- Extra Info -->
-  <div class="container-fluid gray-bg text-center">
+  <div class="container gray-bg text-center">
       <h2 class="margin">Where are we located?</h2><br>
-      <div class="row">
+      <div class="row-gutter">
           <div class="col-sm-4">
               <h3>Eat With Us.</h3>
               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -101,29 +112,7 @@
 
   <!-- Add Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <script>
-      var myCenter = new google.maps.LatLng(42.963877, -85.888923);
-
-      function initialize() {
-          var mapProp = {
-              center:myCenter,
-              zoom:16,
-              scrollwheel:false,
-              draggable:false,
-              mapTypeId:google.maps.MapTypeId.ROADMAP
-          };
-
-          var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-          var marker = new google.maps.Marker({
-              position:myCenter,
-          });
-
-          marker.setMap(map);
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-  </script>
+  <script src="CSS/js/Scripts.js"></script>
   <!-- Footer -->
   <footer class="container-fluid GV-main-blue text-center">
       <p>&copy; Jarred Parr Web Design, 2017</p>

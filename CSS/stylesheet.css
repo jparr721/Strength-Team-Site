@@ -4,8 +4,17 @@
     background-color: #66afe9;
 }
 
+.row-gutter {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+#main.container{
+    background: #000000 url('/Images/TeamImages/CompPhoto1.JPG');
+}
+
 .body {
-    width: 1200px;
+    location: relative;
     margin:0 auto;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
@@ -13,7 +22,7 @@
 }
 
 .body-whitebg {
-    width: 1200px;
+    loacation: relative;
     margin:0 auto;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
