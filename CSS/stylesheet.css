@@ -29,6 +29,12 @@
     color: #262626;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
 .index-bg {
     background: url("/Images/TeamImages/CompPhoto1.JPG");
 }
