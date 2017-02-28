@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="CSS/utility.css" />
     <link rel="stylesheet" href="CSS/stylesheet.css" />
+    <link rel="stylesheet" href="CSS/jquery-3.1.1.min.js" />
+    <link rel="stylesheet" href="CSS/js/app.js" />
+    <link rel="stylesheet" href="CSS/php/mailer.php"/>
     <link rel="icon" type="image/png" href="Images/GVLogo.png" />
 </head>
 <body class="body">
@@ -43,7 +46,8 @@
 
 </div>
 <!-- Contact Section -->
-<div id="contact" class="container gray-bg">
+<div id="status-message"></div>
+<div id="contact" method="post" action="mailer.php" class="container gray-bg">
     <h2 class="text-center">Contact Us!</h2>
     <div class="row">
         <div class="col-sm-5">
@@ -54,17 +58,19 @@
         <div class="col-sm-7">
             <div class="row">
                 <div class="col-sm-6 form-group">
+                    <p>Name:</p>
                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                 </div>
                 <div class="col-sm-6 form-group">
+                    <p>Email:</p>
                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
                 </div>
             </div>
+            <p>Additional Info:</p>
             <textarea class="form-control" id="comments" name="comments" placeholder="Additional Information" rows="5">
             </textarea><br>
             <div class="row">
                 <div class="col-sm-12 form-group">
-                    <!--<a href="mailto:gvstrength@gmail.com">-->
                     <button class="btn btn-default pull-right" type="submit">Send</button>
                     </a>
                 </div>
